@@ -1,6 +1,5 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
-import About from "./About";
 import Home from "./Home";
 import "./App.css";
 
@@ -45,11 +44,8 @@ const App = () => {
       <div style={styles.main_header}>
         <div style={styles.header}>
           <div style={styles.navbar}>
-            <Link to="/" style={styles.nav_link}>
+            <Link to="/" style={styles.nav_link}> 
               Home
-            </Link>
-            <Link to="/about" style={styles.nav_link}>
-              About
             </Link>
           </div>
         </div>
@@ -57,7 +53,6 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
       </Routes>
     </div>
   );

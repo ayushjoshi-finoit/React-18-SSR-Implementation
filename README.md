@@ -1,7 +1,3 @@
-# React Application with React 18 Server Side API Implementation
-
-This is a React application that has implemented React 18's server-side API for rendering components on the server. This allows for improved performance and better user experience by pre-rendering components on the server and sending them to the client.
-
 ## Getting Started
 
 To get started with this project, follow the steps below:
